@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showNewTask = false
+    // links views, initialy second view isn't shown
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack{
+                Text("To Do List")
+                    .font(.title)
+                    .font(.system(size: 40))
+                    .fontWeight(.black)
+                    Spacer()
+                Button {
+                    withAnimation {
+                        self.showNewTask = true
+                    }
+                } label: {
+                    Text("+")
+                        .font(.title)
+                        .font(.system(size: 50))
+                        .fontWeight(.semibold)
+                }
+            }
+            .padding()
+            Spacer()
         }
-        .padding()
+        if showNewTask {
+            NewTodoView()
+        }
     }
 }
 

@@ -11,6 +11,7 @@
 		BD4F3A1D2C59512C0053BE33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F3A1C2C59512C0053BE33 /* ContentView.swift */; };
 		BD4F3A1F2C59512D0053BE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4F3A1E2C59512D0053BE33 /* Assets.xcassets */; };
 		BD4F3A222C59512D0053BE33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4F3A212C59512D0053BE33 /* Preview Assets.xcassets */; };
+		BD4F3A292C59530B0053BE33 /* NewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F3A282C59530B0053BE33 /* NewTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BD4F3A1C2C59512C0053BE33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD4F3A1E2C59512D0053BE33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4F3A212C59512D0053BE33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD4F3A282C59530B0053BE33 /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BD4F3A1A2C59512C0053BE33 /* todoListApp.swift */,
 				BD4F3A1C2C59512C0053BE33 /* ContentView.swift */,
+				BD4F3A282C59530B0053BE33 /* NewTodoView.swift */,
 				BD4F3A1E2C59512D0053BE33 /* Assets.xcassets */,
 				BD4F3A202C59512D0053BE33 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4F3A292C59530B0053BE33 /* NewTodoView.swift in Sources */,
 				BD4F3A1D2C59512C0053BE33 /* ContentView.swift in Sources */,
 				BD4F3A1B2C59512C0053BE33 /* todoListApp.swift in Sources */,
 			);
